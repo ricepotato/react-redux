@@ -8,7 +8,7 @@ import Detail from "./routes/Detail";
 function App() {
   return (
     <Router>
-      <h1>Hello World</h1>
+      <h1>React Redux</h1>
       <Route path="/" exact component={Home}></Route>
       <Route path="/:id" component={Detail}></Route>
     </Router>
